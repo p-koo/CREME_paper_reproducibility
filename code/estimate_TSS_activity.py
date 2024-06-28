@@ -20,7 +20,9 @@ def main():
     if model_name.lower() == 'enformer':
         # target_df = pd.read_csv('../data/enformer_targets_human.txt', sep='\t')
         # cage_tracks = [i for i, t in enumerate(target_df['description']) if 'CAGE' in t]
-        model = custom_model.Enformer()
+        track_index = [4824, 5110, 5111]
+        bin_index = [447, 448]
+        model = custom_model.Enformer(track_index=track_index, bin_index=bin_index)
     elif model_name.lower() == 'borzoi':
         target_df = pd.read_csv('../data/borzoi_targets_human.txt', sep='\t')
         cage_tracks = [i for i, t in enumerate(target_df['description']) if
