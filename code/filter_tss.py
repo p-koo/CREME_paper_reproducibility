@@ -29,8 +29,8 @@ def main():
     all_tss = np.empty((N, len(cell_lines)))
     for i, row in tqdm(tss_df.iterrows(), total=N):
         if model_name == 'enformer':
-            pred = np.load(f'{result_dir}/{utils.get_summary(row)}.npy')[:, cell_lines]
-            all_tss[i] = pred[bin_index].mean(axis=0)
+            pred = np.load(f'{result_dir}/{utils.get_summary(row)}.npy')
+            all_tss[i] = pred.mean(axis=0)
         elif model_name == 'borzoi':
 
 
