@@ -1,5 +1,23 @@
 # CREME manuscript analysis
 This document walks through the commands for reproducing the analysis in the manuscript. 
+
+Paper: https://www.biorxiv.org/content/10.1101/2023.07.03.547592v1
+
+Full documentation on Readthedocs.org!
+
+Tutorials: https://creme-nn.readthedocs.io/en/latest/tutorials.html
+
+Colab examples:
+
+    Examples of CREME tests with Enformer: https://colab.research.google.com/drive/1j3vXKf4QNgCWoIp655ugxEGyBN0cp4K5?usp=sharing
+    Example of PyTorch version of Enformer: https://colab.research.google.com/drive/1c0ac3ei4Ntx0AgTaRkr80O8wZNb-j6wu?usp=sharing
+
+Requirements:
+```
+pip install creme-nn
+```
+
+
 ## Enformer
 For Enformer analysis the following steps were performed. Unless stated otherwise all the csvs are saved
 in `../results/summary_csvs/enformer` and all the results are saved as subdirectories in `../results/`. 
