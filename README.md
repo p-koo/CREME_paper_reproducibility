@@ -3,6 +3,8 @@ This document walks through the commands for reproducing the analysis in the man
 
 Paper: https://www.biorxiv.org/content/10.1101/2023.07.03.547592v1
 
+Results: https://zenodo.org/records/12584210 
+
 Full documentation on [Readthedocs.org](https://creme-nn.readthedocs.io/en/latest/)!
 
 Tutorials are [here](https://creme-nn.readthedocs.io/en/latest/tutorials.html)!
